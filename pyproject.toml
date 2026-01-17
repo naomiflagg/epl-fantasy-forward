@@ -1,0 +1,20 @@
+[project]
+name = "epl-fantasy-forward-backend"
+version = "0.1.0"
+description = "EPL Fantasy Forward API - AI-powered transfer suggestions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi==0.115.0",
+    "uvicorn[standard]==0.34.0",
+    "sqlalchemy==2.0.36",
+    "asyncpg==0.30.0",
+    "greenlet>=3.0.0",
+    "pydantic==2.10.0",
+    "pydantic-settings==2.6.1",
+    "supabase>=2.0.0",
+    "httpx==0.28.1",
+    "cachetools==5.5.0",
+    "python-dotenv==1.0.1",
+    "google-generativeai==0.8.3",
+]
